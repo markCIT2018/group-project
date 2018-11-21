@@ -7,3 +7,5 @@ use the next few commands to get the app running:
 
 
 more will be added later, refer to this often.
+
+plesae remember to create two files within  public, images and javascript (these arent uploaded because theyre blank)
