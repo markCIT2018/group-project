@@ -1,0 +1,9 @@
+use the next few commands to get the app running:
+1. npm install
+2. npm install --save-dev nodemon
+3. npm install mongoose
+4. npm install express-validator
+
+
+
+more will be added later, refer to this often.
