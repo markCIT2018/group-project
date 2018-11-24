@@ -3,6 +3,16 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+//-- added variables 
+var session = require('express-session');
+var passport = require('passport');
+var LocalStrategy = require('passport-local').Strategy;
+var mutler = require('multer');
+var flash = require('connect-flash');
+var mongoose = require('mongoose');
+var mongo = require('mongodb');
+var db = mongoose.connection;
+//- end of added variables 
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
