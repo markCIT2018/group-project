@@ -2,13 +2,13 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+router.get('/login', function(req, res, next) {
+  res.render('login');
 });
 
-//- new page which says something from tutorial, meaningless,can be deleted.
-router.get('/cool', function(req, res, next) {
-  res.send('Damn, you\'re looking good.');
+
+router.get('/register', function(req, res, next) {
+  res.render('register');
 });
 
 
