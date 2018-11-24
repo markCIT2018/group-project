@@ -9,3 +9,14 @@ use the next few commands to get the app running:
 more will be added later, refer to this often.
 
 plesae remember to create two files within  public, images and javascript (these arent uploaded because theyre blank)
+
+On going development of application, have progressed onto passport.js and authentication of login information. 
+
+
+Mongodb downloaded localled. file created "db" in the data folder
+
+then specify the path to that db file with the command 
+
+mongod.exe --dbpath C:\mongodb\data\db
+
+db.users.find().pretty()
